@@ -17,6 +17,7 @@
 - 🧩 Me muevo cómodo en todo el stack: backend, frontend, base de datos y despliegue.
 - 📱 Llevo la web a móvil con **Capacitor**, publicando apps para **iOS y Android**.
 - 🗄️ Trabajo la base de datos a fondo: modelado, consultas y **Stored Procedures**.
+- ☁️ Diseño arquitecturas cloud en **AWS** (balanceo de carga, autoescalado, monitoreo y mensajería), formándome activamente en Arquitectura Cloud.
 - 📊 También trabajo datos: pipelines desde SQL Server / AWS hasta dashboards en **Power BI**.
 - 🤖 Me interesa la IA aplicada: extensiones y herramientas que integran LLMs en el flujo de trabajo diario.
 - 🌱 Actualmente aprendiendo **Flutter** para mantención de aplicaciones móviles.
@@ -99,6 +100,9 @@
 
 | Proyecto | Descripción | Stack |
 | --- | --- | --- |
+| [**Monolito Escalable en AWS**](https://github.com/perroBlanco0/monolito-escalable) | Aplicación web llevada de un servidor único a una arquitectura de alta disponibilidad: balanceo de carga, autoescalado y monitoreo, con el ciclo completo (alarma → escalado → recuperación) validado bajo carga real. | AWS · EC2 · Application Load Balancer · Auto Scaling · CloudWatch |
+| [**Serverless en AWS**](https://github.com/perroBlanco0/lab-aws-serverless) | Arquitectura sin servidor sobre AWS Academy Learner Lab, con foco en cómputo bajo demanda y buenas prácticas de diseño cloud-native. | AWS · Serverless · Lambda |
+| [**Mensajería Cloud (SNS/SQS)**](https://github.com/perroBlanco0/sns-sqs) | Arquitectura de mensajería asíncrona y desacoplada entre servicios usando colas y notificaciones administradas de AWS. | AWS · SNS · SQS |
 | [**LLM Context Builder**](https://github.com/perroBlanco0/llm-context-exporter) | Extensión de VS Code que convierte archivos y carpetas en un contexto Markdown limpio, con árbol de archivos, listo para pegar en ChatGPT, Claude o Gemini. Publicada en el [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=perroBlanco0.llm-context-builder). | TypeScript · VS Code API · GitHub Actions |
 | [**AI Proactive Agent**](https://github.com/perroBlanco0/AI-PROACTIVA) | Extensión de Chrome (Manifest V3) con visión artificial y chat vía Telegram: analiza la pantalla, responde preguntas y sugiere acciones. | JavaScript · OpenAI / Gemini · Telegram Bot API |
 | [**Portafolio API**](https://github.com/perroBlanco0/portafolio) | Backend de portafolio personal con FastAPI, scraping y procesamiento de datos, servido con Uvicorn/Gunicorn. | Python · FastAPI · Pandas · BeautifulSoup |
